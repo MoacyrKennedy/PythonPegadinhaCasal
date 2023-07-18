@@ -10,7 +10,7 @@ if msg_box:
     msg_box = messagebox.showwarning("PERAI AI!", "PARA SER DESHACKEADA PRECISO QUE ME RESPONDA UMA PERGUNTA:")
 
 if msg_box:
-    msg_box = messagebox.askquestion("O QUE ACHA?", "ACEITA CASAR COMIGO")
+    msg_box = messagebox.askquestion("O QUE ACHA?", "ACEITA CASAR COMIGO?")
 
 count = 1
 while msg_box == 'no':
@@ -18,7 +18,7 @@ while msg_box == 'no':
     if count == 6:
         msg_box = messagebox.showerror("TO INDO AI!", "SE VAI APANHAR FEIO")
         break
-    msg_box = messagebox.askquestion("O QUE ACHA?", "ACEITA CASAR COMIGO")
+    msg_box = messagebox.askquestion("O QUE ACHA?", "ACEITA CASAR COMIGO?")
 
 if msg_box == 'yes':
     msg_box = messagebox.showinfo("Boa!", "SABIA ESCOLHA!")
